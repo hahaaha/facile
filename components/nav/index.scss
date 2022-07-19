@@ -1,0 +1,13 @@
+.f-nav {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    border-top: 1px solid #ccc;
+    > div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
