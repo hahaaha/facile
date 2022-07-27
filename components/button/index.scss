@@ -1,12 +1,46 @@
-.fc-button-normal {
-    padding: 16px;
-    background: #fff;
-    border: #ccc 1px solid;
-    border-radius: 3px;
-}
-
-.fc-button-error {
-    background: #e74645;
-    border: #e74645;
-    color: #fff;
+.fc-button {
+    border-radius: 6px;
+    &-full {
+        width: 100%;
+        padding: 32px;
+        font-size: 32px;
+    }
+    &-normal {
+        padding: 32px;
+        font-size: 32px;
+    }
+    &-small {
+        font-size: 28px;
+        padding: 28px;
+    }
+    &-mini {
+        font-size: 20px;
+        padding: 20px;
+    }
+    &-default {
+        background: #fff;
+        color: #000;
+        border: #ebedf0 1px solid;
+    }
+    &-primary {
+        background: #1989fa;
+        color: #fff;
+        border: #1989fa 1px solid;
+    }
+    &-danger {
+        background: #e74645;
+        border: #e74645 1px solid;
+        color: #fff;
+    }
+    &-success {
+        background: #07c160;
+        border: #07c160;
+        color: #fff;
+    }
+    &-warning {
+        background: #ff976a;
+        border: #ff976a 1px solid;
+        color: #fff;
+    }
+    
 }
